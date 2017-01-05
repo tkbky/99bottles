@@ -1,6 +1,6 @@
-gem 'minitest', '~> 5.4'
-
 require 'minitest/autorun'
+require 'minitest/emoji'
+
 require_relative '../lib/bottles'
 
 class BottlesTest < Minitest::Test
