@@ -1,6 +1,10 @@
 class Bottles
   def initialize; end
 
+  def verses(from, to)
+    from.downto(to).map { |x| verse(x) }.join("\n")
+  end
+
   def verse(x)
     case x
     when 0
